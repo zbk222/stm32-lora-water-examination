@@ -1,0 +1,44 @@
+# Keil 编译生成文件
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.htm
+*.dep
+*.bak
+*.lnp
+*.lst
+*.iex
+*.sct
+*.build_log.htm
+*.scvd
+
+# 编译器临时文件
+RTE/
+_htmresc/
+DebugConfig/
+Listings/
+Objects/
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+# VS Code 配置
+.vscode/
+*.code-workspace
+
+# VS Code Keil 插件临时文件
+c_ppp_properties.json
+keil-assistant.log
+
+# Keil 编译日志
+uv4.log
+uv4.log.lock
+
+# 其他 IDE 临时文件
+*.swp
+*.swo
+*~
